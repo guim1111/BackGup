@@ -3,5 +3,7 @@ Created on 19 jun. 2019
 
 @author: Guim
 '''
-print('Hola jeje')
-
+import configparser
+config = configparser.ConfigParser()
+config.read("config.ini")
+config.sections()
